@@ -9,11 +9,7 @@ nav ul{
     color: white;
     justify-content: space-evenly;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
-}
-
-
-
+  }
 
 a{   
 color: #ffffff;
@@ -24,22 +20,13 @@ border-radius: 0.3em;
 a:hover{ 
     background-color: #5D4F02;
 }
-
-.babychim{
-    padding-left: 2em;
-    height: 20em;
+article{
+    background-color: #a6b595;
+    border-radius: 3em;
 }
-    
-.zoog{
-    background: #5D4F02;
-    height: 30px;
-    padding-left: 38%;
-    font-size: 1em;
-    color: white;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 
-}
+
 body{
     background-color: #FAFAEF;
     color: #000000;
@@ -62,19 +49,14 @@ h2{
     
     
 }
-h3{
-    
+p{ 
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
     font-size: 1em;
-    justify-content: right;
-    font-weight: 400;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
     padding-left: 3em;
-    width: 40%;
-    color: #556E38;
+
 }
-        
-
-
 section{
     font-size:1em;
     padding-left: 2em;
@@ -83,13 +65,25 @@ section{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 600    
 }
+.babychim{
+    padding-left: 2em;
+    height: 20em;
+}
+    
+.zoog{
+    background: #5D4F02;
+    height: 30px;
+    padding-left: 38%;
+    font-size: 1em;
+    color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
 .kat{ width: 33%;
 
 }
 .olifant{ width:33%;} 
+
 .leeuw{ width: 33%;}
-
-
 
 .infochim{
     
@@ -104,14 +98,7 @@ margin: 1em;
 
 }
 
-p{ 
-    font-family: Arial, Helvetica, sans-serif;
-    width: 60%;
-    font-size: 1em;
 
-    padding-left: 3em;
-
-}
 .homechim{
     width: 100%;
 }
@@ -119,10 +106,11 @@ video{
     width: 100%;
 }
 .landkaart{
-    padding-left: 5em
+    padding-right: 5em
     ;
-    display: inline-block;
-
+  
+    float: right;
+  
 }
 li{
     padding-left: 5em;
@@ -136,19 +124,11 @@ li{
 .lachchim{
     width: 33%;
 }
-.footer{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
 .baby{ 
 
 width: 40%;
 display:inline-block;}
-
-.land{ display: inline-block;
-    padding-bottom: 2em;
-
-
-}
 
 .soortf{
     width: 24%;
@@ -166,10 +146,7 @@ display:inline-block;}
     padding-left: 5em;
     font-size: 1.3em;
 }
-article{
-    background-color: #a6b595;
-    border-radius: 3em;
-}
+
 .leer{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -180,5 +157,4 @@ article{
 }
 .logop{
     float: left;
-
 }
